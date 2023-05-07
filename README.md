@@ -14,7 +14,7 @@ ssh bandit1@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 ls
 cat ./-
-Le mot de passe de la niveau suivant est: 'rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+Le mot de passe pour le niveau suivante est: 'rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
 ```
 
 ## LEVLEL 2
@@ -35,7 +35,7 @@ ls
 inhere
 cd inhere/
 cat ./.hidden
-Mot de passe de la niveau suivant: '2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+Mot de passe obtenu: '2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 ```
 ## LEVEL 4
 
@@ -47,7 +47,7 @@ ls -1a
 cd inhere/
 ls file ./*
 cat ./-file07
-Mot de passe de la niveau suivant: 'lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+Mot de passe obtenu: 'lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 ```
 ## LEVEL 5
 
@@ -59,7 +59,7 @@ cd inhere/
 ls
 find . -size 1033c
 cat ./maybehere07/.file2
-Mot de passe de la niveau suivant: 'P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+Mot de passe obtenu: 'P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 ```
 ## LEVEL 6
 
@@ -68,7 +68,7 @@ ssh bandit6@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU'
 find / -user bandit7 -group bandit6 -size 33c
 cat /var/lib/dpkg/info/bandit7.password
-Mot de passe de la niveau suivant: 'z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+Mot de passe obtenu: 'z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 ```
 ## LEVEL 7
 
@@ -77,7 +77,7 @@ ssh bandit7@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S'
 ls
 cat data.txt | grep millionth
-Mot de passe de la niveau suivant: 'TESKZC0XvTetK0S9xNwm25STk5iWrBvP'
+Mot de passe obtenu: 'TESKZC0XvTetK0S9xNwm25STk5iWrBvP'
 ```
 ## LEVEL 8
 
@@ -85,7 +85,7 @@ Mot de passe de la niveau suivant: 'TESKZC0XvTetK0S9xNwm25STk5iWrBvP'
 ssh bandit8@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'TESKZC0XvTetK0S9xNwm25STk5iWrBvP'
 cat data.txt | sort | uniq -u
-Mot de passe de la niveau suivant: 'EN632PlfYiZbn3PhVK3XOGSlNInNE00t'
+Mot de passe obtenu: 'EN632PlfYiZbn3PhVK3XOGSlNInNE00t'
 ```
 ## LEVEL 9
 
@@ -107,7 +107,7 @@ X=K,
 ========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 &S=(
 nd?='
-Mot de passe de la niveau suivant: 'G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s'
+Mot de passe obtenu: 'G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s'
 ```
 ## LEVEL 10
 
@@ -116,7 +116,7 @@ ssh bandit10@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s'
 ls
 cat data.txt | base64 –decode
-Mot de passe de la niveau suivant: '6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM'
+Mot de passe obtenu: '6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM'
 ```
 ## LEVEL 11
 
@@ -125,7 +125,7 @@ ssh bandit11@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: '6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM'
 ls
 cat data.txt | tr a-zA-Z n-za-mN-ZA-M
-Mot de passe de la niveau suivant: 'JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv'
+Mot de passe obtenu: 'JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv'
 ```
 ## LEVEL 12
 
@@ -163,7 +163,7 @@ mv data8.bin data9.gz
 gzip -d data9.gz
 file data9
 cat data9
-Mot de passe de la niveau suivant: 'wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw'
+Mot de passe obtenu: 'wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw'
 ```
 ## LEVEL 13
 
@@ -172,5 +172,5 @@ ssh bandit13@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw'
 Ls
 ssh bandit14@localhost -i sshkey.private
-Mot de passe de la niveau suivant: 'no'
+Mot de passe obtenu: 'no'
 ```
