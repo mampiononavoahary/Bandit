@@ -171,6 +171,25 @@ Mot de passe obtenu: 'wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw'
 ssh bandit13@bandit.labs.overthewire.org -p2220
 Entrer le mot de passe: 'wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw'
 Ls
-ssh bandit14@localhost -i sshkey.private
-Mot de passe obtenu: 'no'
+ssh -i ./sshkey.private -p 2220 bandit14@localhost
+```
+## LEVEL 14
+
+```sh
+Ls
+ cat /etc/bandit_pass/bandit14
+ fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+ telnet localhost 30000
+ Correct!
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+ mot de passe obtenu:'jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt'
+```
+## LEVEL 15
+
+```sh
+ssh bandit15@bandit.labs.overthewire.org -p2220
+Ls
+ openssl s_client -connect localhost:30001 -ign_eof
+ copier le mot dz passe precedant:'jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt'
+ mot de passe obtenu:'JQttfApK4SeyHwDlI9SXGR50qclOAil1'
 ```
